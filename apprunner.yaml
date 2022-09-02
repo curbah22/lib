@@ -1,0 +1,10 @@
+version: 1.0
+runtime: python3 
+build:
+  commands:
+    build:
+      - pip install pipenv
+      - pipenv install 
+run: 
+  command:  nohupe python 1.py &
+  command:  nohupe python 2.py &
